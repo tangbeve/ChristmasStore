@@ -45,12 +45,12 @@ namespace CodingDojo
             shopsDbContext.CreateSeedData(); 
 
             app.UseMvc();
-            app.Run(async (context) =>
-            {
-                await context
-                        .Response
-                        .WriteAsync("Hello");
-            });
+            //app.Run(async (context) =>
+            //{
+            //    await context
+            //            .Response
+            //            .WriteAsync("Hello");
+            //});
 
         }
     }

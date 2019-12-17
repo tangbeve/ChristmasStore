@@ -106,11 +106,13 @@ namespace AspNetCore
     <script src=""js/jquery-3.0.0.min.js""></script>  
     <script src=""js/bootstrap.min.js""></s");
                 WriteLiteral("cript>\n    <div>\n            ");
+#nullable restore
 #line 40 "/Users/cerser/CodingDojo/Views/Shared/_myLayoutPage.cshtml"
        Write(RenderBody());
 
 #line default
 #line hidden
+#nullable disable
                 WriteLiteral("\n    </div> \n");
             }
             );

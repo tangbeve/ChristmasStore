@@ -43,12 +43,14 @@ namespace AspNetCore
             WriteLiteral("<!DOCTYPE html>\n<html>\n");
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a4e2c8a758032857e19de55a228943ddadfefcbe2629", async() => {
                 WriteLiteral("\n");
+#nullable restore
 #line 4 "/Users/cerser/CodingDojo/Views/Your/About.cshtml"
   
     Layout = "~/Views/Shared/_myLayoutPage.cshtml"; 
 
 #line default
 #line hidden
+#nullable disable
                 WriteLiteral("    <meta charset=\"utf-8\" />\n    <title></title>\n");
             }
             );
@@ -62,13 +64,15 @@ namespace AspNetCore
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a4e2c8a758032857e19de55a228943ddadfefcbe3807", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a4e2c8a758032857e19de55a228943ddadfefcbe3843", async() => {
                 WriteLiteral("\n    <p>");
+#nullable restore
 #line 11 "/Users/cerser/CodingDojo/Views/Your/About.cshtml"
   Write(ViewBag.About);
 
 #line default
 #line hidden
+#nullable disable
                 WriteLiteral("</p>\n");
             }
             );
