@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{3F1D887A-BA97-4F32-8321-49817F089DCA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/User.cs">
+    <Files>
+      <File FileName="Controllers/YourController.cs" Line="15" Column="17" />
+      <File FileName="Views/Your/Index.cshtml" Line="7" Column="1" />
+      <File FileName="wwwroot/css/style.css" />
+      <File FileName="Views/Your/About.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Shared/_myLayoutPage.cshtml" Line="20" Column="45" />
+      <File FileName="Models/User.cs" Line="6" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CodingDojo" expanded="True">
+            <Node name="CodingDojo" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="User.cs" selected="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CodingDojo PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
