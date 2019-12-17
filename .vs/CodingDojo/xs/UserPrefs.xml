@@ -1,28 +1,23 @@
 ﻿<Properties StartupConfiguration="{3F1D887A-BA97-4F32-8321-49817F089DCA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Shared/_myLayoutPage.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Your/Index.cshtml">
     <Files>
-      <File FileName="Controllers/YourController.cs" Line="19" Column="29" />
-      <File FileName="Views/Your/Index.cshtml" Line="17" Column="1" />
-      <File FileName="wwwroot/css/style.css" Line="12" Column="2" />
-      <File FileName="Views/Your/About.cshtml" Line="1" Column="1" />
-      <File FileName="Views/Shared/_myLayoutPage.cshtml" Line="30" Column="5" />
-      <File FileName="Views/Your/Home.cshtml" Line="16" Column="8" />
+      <File FileName="Services/ShopDbContextExtensions.cs" Line="19" Column="18" />
+      <File FileName="Services/ShopsDbContext.cs" />
+      <File FileName="Controllers/ShopsController.cs" />
+      <File FileName="Controllers/YourController.cs" />
+      <File FileName="Startup.cs" Line="18" Column="1" />
+      <File FileName="Views/Your/Index.cshtml" Line="13" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CodingDojo" expanded="True">
             <Node name="CodingDojo" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Dependencies" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Shared" expanded="True">
-                  <Node name="_myLayoutPage.cshtml" selected="True" />
+                <Node name="Your" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
                 </Node>
-                <Node name="Your" expanded="True" />
-              </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -32,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.CodingDojo PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.CodingDojo PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
