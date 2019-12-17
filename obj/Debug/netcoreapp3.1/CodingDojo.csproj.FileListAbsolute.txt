@@ -32,3 +32,5 @@
 /Users/cerser/CodingDojo/obj/Debug/netcoreapp3.1/Razor/Views/Your/Projects.cshtml.g.cs
 /Users/cerser/CodingDojo/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_myLayoutPage.cshtml.g.cs
 /Users/cerser/CodingDojo/obj/Debug/netcoreapp3.1/Razor/Views/Your/About.cshtml.g.cs
+/Users/cerser/CodingDojo/obj/Debug/netcoreapp3.1/Razor/Views/Your/Display.cshtml.g.cs
+/Users/cerser/CodingDojo/obj/Debug/netcoreapp3.1/Razor/Views/Your/Home.cshtml.g.cs

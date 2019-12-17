@@ -18,7 +18,14 @@ namespace CodingDojo.Controllers
         {
             return View();
         }
-     
+        [HttpGet]
+        [Route("home")]
+
+        public ViewResult Home()
+        {
+            return View();
+        }
+
 
         [HttpGet]
         [Route("projects")]
@@ -41,6 +48,13 @@ namespace CodingDojo.Controllers
             ViewBag.Location = "6283 Christmas Lane, North Pole";
             ViewBag.Number = "252-209-4185";
             ViewBag.Email = "merryChristmas19@gmail.com";
+            return View(); 
+        }
+        [HttpGet]
+        [Route("display")]
+        public IActionResult Display()
+        {
+
             return View(); 
         }
         //public ViewResult Contact()
