@@ -10,6 +10,11 @@ namespace CodingDojo.Controllers
 {
     public class YourController : Controller 
     {
+        //private readonly ShopsDbContext _context;
+        //public YourController(ShopsDbContext context)
+        //{
+        //    _context = context; 
+        //}
 
         [HttpGet]
         [Route("")]
@@ -50,13 +55,24 @@ namespace CodingDojo.Controllers
             ViewBag.Email = "merryChristmas19@gmail.com";
             return View(); 
         }
-        [HttpGet]
-        [Route("display")]
-        public IActionResult Display()
-        {
+        //[HttpGet]
+        //[Route("display")]
+        //public async Task<IActionResult> Display(int? id)
+        //{
+        //    if (id == null)
+        //    {
+        //        return NotFound(); 
+        //    }
 
-            return View(); 
-        }
+        //    var shop = await _context.Shops
+        //        .FirstOrDefaultAsync(s => s.id == id);
+        //    if(shop == null)
+        //    {
+        //        return NotFound(); 
+        //    }
+
+        //    return View(shop); 
+       // }
 
         //public ViewResult Contact()
         //{

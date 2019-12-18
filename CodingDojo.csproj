@@ -15,6 +15,7 @@
     <Folder Include="Views\Shared\" />
     <Folder Include="Models\" />
     <Folder Include="Services\" />
+    <Folder Include="Views\Shops\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="bootstrap" Version="4.4.1" />
@@ -31,5 +32,6 @@
   <ItemGroup>
     <Content Remove="wwwroot\images\tree.png" />
     <Content Remove="Views\Your\_ViewStart.cshtml" />
+    <Content Remove="Views\Your\Display.cshtml" />
   </ItemGroup>
 </Project>

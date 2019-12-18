@@ -46,14 +46,12 @@ namespace AspNetCore
             WriteLiteral("<!DOCTYPE html>\n<html>\n");
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "838dfea1f5dc145247a6f7fd4c309d872281a0513496", async() => {
                 WriteLiteral("\n");
-#nullable restore
 #line 4 "/Users/cerser/CodingDojo/Views/Your/Index.cshtml"
   
     Layout = "~/Views/Shared/_myLayoutPage.cshtml"; 
 
 #line default
 #line hidden
-#nullable disable
                 WriteLiteral("\n    <meta charset=\"utf-8\"/>\n    <title>Hello</title>\n");
             }
             );
@@ -67,9 +65,9 @@ namespace AspNetCore
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "838dfea1f5dc145247a6f7fd4c309d872281a0514716", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "838dfea1f5dc145247a6f7fd4c309d872281a0514680", async() => {
                 WriteLiteral(" \n\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "838dfea1f5dc145247a6f7fd4c309d872281a0514977", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "838dfea1f5dc145247a6f7fd4c309d872281a0514941", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

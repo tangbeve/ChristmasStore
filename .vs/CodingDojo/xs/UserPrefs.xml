@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{3F1D887A-BA97-4F32-8321-49817F089DCA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Services/ShopDbContextExtensions.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Shared/_myLayoutPage.cshtml">
     <Files>
-      <File FileName="Services/ShopDbContextExtensions.cs" Line="28" Column="27" />
-      <File FileName="Services/ShopsDbContext.cs" />
-      <File FileName="Controllers/ShopsController.cs" />
-      <File FileName="Controllers/YourController.cs" />
-      <File FileName="Startup.cs" />
-      <File FileName="Views/Your/Index.cshtml" />
+      <File FileName="Controllers/ShopsController.cs" Line="14" Column="16" />
+      <File FileName="Views/Shops/Display.cshtml" Line="8" Column="1" />
+      <File FileName="Models/Shop.cs" Line="21" Column="6" />
+      <File FileName="Controllers/YourController.cs" Line="54" Column="45" />
+      <File FileName="Views/Your/About.cshtml" Line="10" Column="7" />
+      <File FileName="Views/Shared/_myLayoutPage.cshtml" Line="31" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,10 +18,12 @@
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="Controllers" expanded="True" />
-              <Node name="Services" expanded="True">
-                <Node name="ShopDbContextExtensions.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="_myLayoutPage.cshtml" selected="True" />
+                </Node>
+                <Node name="Shops" expanded="True" />
                 <Node name="Your" expanded="True" />
               </Node>
             </Node>

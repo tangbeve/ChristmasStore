@@ -32,7 +32,6 @@
 /Users/cerser/CodingDojo/obj/Debug/netcoreapp3.1/Razor/Views/Your/Projects.cshtml.g.cs
 /Users/cerser/CodingDojo/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_myLayoutPage.cshtml.g.cs
 /Users/cerser/CodingDojo/obj/Debug/netcoreapp3.1/Razor/Views/Your/About.cshtml.g.cs
-/Users/cerser/CodingDojo/obj/Debug/netcoreapp3.1/Razor/Views/Your/Display.cshtml.g.cs
 /Users/cerser/CodingDojo/obj/Debug/netcoreapp3.1/Razor/Views/Your/Home.cshtml.g.cs
 /Users/cerser/CodingDojo/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Razor.Language.dll
 /Users/cerser/CodingDojo/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
@@ -147,3 +146,4 @@
 /Users/cerser/CodingDojo/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /Users/cerser/CodingDojo/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /Users/cerser/CodingDojo/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/cerser/CodingDojo/obj/Debug/netcoreapp3.1/Razor/Views/Shops/Display.cshtml.g.cs
