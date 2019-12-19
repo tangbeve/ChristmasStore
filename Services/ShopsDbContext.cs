@@ -7,7 +7,7 @@ namespace ChristmasStore.Services
     public class ShopsDbContext : DbContext
     {
         public DbSet<Shop> Shops { get; set; }
-
+       
         public ShopsDbContext(DbContextOptions<ShopsDbContext> options) : base(options)
         {
             Database.EnsureCreated(); 

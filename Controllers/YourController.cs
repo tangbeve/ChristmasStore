@@ -60,11 +60,13 @@ namespace ChristmasStore.Controllers
         }
 
        
-        private ShopsDbContext _context;
-   
-        public YourController(ShopsDbContext context)
+       private  ShopsDbContext _context;
+       private   UsersDbContext context_;
+
+        public YourController(ShopsDbContext context, UsersDbContext context1)
         {
             _context = context;
+            context_ = context1; 
         }
 
         [HttpGet]
@@ -80,7 +82,21 @@ namespace ChristmasStore.Controllers
            
         }
 
-       
+
+        [HttpGet]
+        [Route("users")]
+        public IActionResult Users()
+        {
+            List<User> user = context_.Users
+                .OrderBy(s => s.FirstName)
+                .ToList();
+
+            ViewBag.AllUsers = user;
+            return View();
+
+        }
+
+
 
     }
 }

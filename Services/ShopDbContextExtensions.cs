@@ -32,7 +32,11 @@ namespace ChristmasStore.Services
                 }
             };
             context.AddRange(shops);
-            context.SaveChanges(); 
+            context.SaveChanges();
+
+        
+         
+
         }
     }
 }

@@ -147,3 +147,4 @@
 /Users/cerser/ChristmasStore/obj/Debug/netcoreapp3.1/ChristmasStore.dll
 /Users/cerser/ChristmasStore/obj/Debug/netcoreapp3.1/ChristmasStore.pdb
 /Users/cerser/ChristmasStore/obj/Debug/netcoreapp3.1/Razor/Views/Your/Display.cshtml.g.cs
+/Users/cerser/ChristmasStore/obj/Debug/netcoreapp3.1/Razor/Views/Your/Users.cshtml.g.cs

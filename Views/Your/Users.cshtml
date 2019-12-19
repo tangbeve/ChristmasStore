@@ -1,0 +1,44 @@
+﻿
+@model ChristmasStore.Models.User
+
+@{
+    Layout = "~/Views/Shared/_myLayoutPage.cshtml"; 
+}
+
+ 
+
+    <p> @ViewBag.Title </p>
+
+    @{
+        ViewData["Title"] = "Details";
+
+    }
+<table>
+    <thead>
+        <tr>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>UserName</th>
+        <th>Email</th>
+        <th>Password</th>
+        <th>PhoneNumber</th>
+        </tr>
+    </thead>
+<tbody>
+
+
+@foreach(var u in ViewBag.AllUsers)
+{
+    <tr>
+    <td>@u.FirstName</td>
+    <td>@u.LastName</td>
+    <td>@u.UserName</td>
+    <td>@u.Email</td>
+    <td>@u.Password</td>
+    <td>@u.PhoneNumber</td>
+    </tr>
+    
+}
+</tbody>
+</table>
+

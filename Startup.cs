@@ -28,13 +28,16 @@ namespace ChristmasStore
               .AddDbContext<ShopsDbContext>(o =>
                 o.UseSqlServer(connectionString));
 
-            //services.AddMvcWithDefaultRoute(); 
+            services
+                .AddDbContext<UsersDbContext>(o =>
+                o.UseSqlServer(connectionString));
+
             services.AddMvc();
             services.AddControllers(options => options.EnableEndpointRouting = false);
         }
        
 
-        public void Configure(IApplicationBuilder app,IHostEnvironment env, ShopsDbContext shopsDbContext)
+        public void Configure(IApplicationBuilder app,IHostEnvironment env, ShopsDbContext shopsDbContext, UsersDbContext usersDbContext)
         {
             if(env.IsDevelopment())
             {
@@ -43,6 +46,7 @@ namespace ChristmasStore
             app.UseStaticFiles();
 
             shopsDbContext.CreateSeedData();
+            usersDbContext.CreateSeedData(); 
 
             app.UseMvc(); 
 
