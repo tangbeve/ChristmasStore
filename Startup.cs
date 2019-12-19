@@ -7,13 +7,13 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using CodingDojo.Services;
+using ChristmasStore.Services;
 using Microsoft.EntityFrameworkCore;
 //using System.Configuration;
 using Microsoft.Extensions.Configuration;
 //using Microsoft.Extensions.Logging.Configuration; 
 
-namespace CodingDojo
+namespace ChristmasStore
 {
 
     public class Startup
@@ -42,9 +42,11 @@ namespace CodingDojo
             }
             app.UseStaticFiles();
 
-            shopsDbContext.CreateSeedData(); 
+            shopsDbContext.CreateSeedData();
 
-            app.UseMvc();
+            app.UseMvc(); 
+
+
             //app.Run(async (context) =>
             //{
             //    await context

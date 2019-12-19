@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/cerser/CodingDojo/CodingDojo.csproj": {}
+    "/Users/cerser/ChristmasStore/CodingDojo.csproj": {}
   },
   "projects": {
-    "/Users/cerser/CodingDojo/CodingDojo.csproj": {
+    "/Users/cerser/ChristmasStore/CodingDojo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cerser/CodingDojo/CodingDojo.csproj",
+        "projectUniqueName": "/Users/cerser/ChristmasStore/CodingDojo.csproj",
         "projectName": "CodingDojo",
-        "projectPath": "/Users/cerser/CodingDojo/CodingDojo.csproj",
+        "projectPath": "/Users/cerser/ChristmasStore/CodingDojo.csproj",
         "packagesPath": "/Users/cerser/.nuget/packages/",
-        "outputPath": "/Users/cerser/CodingDojo/obj/",
+        "outputPath": "/Users/cerser/ChristmasStore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/cerser/.nuget/NuGet/NuGet.Config"
+          "/Users/cerser/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

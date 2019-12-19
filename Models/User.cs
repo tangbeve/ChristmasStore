@@ -1,5 +1,5 @@
 ﻿using System;
-namespace CodingDojo.Models
+namespace ChristmasStore.Models
 {
     public class User
     {

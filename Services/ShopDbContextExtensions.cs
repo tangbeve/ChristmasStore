@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using CodingDojo.Models;
+using ChristmasStore.Models;
 
-namespace CodingDojo.Services
+namespace ChristmasStore.Services
 {
     public static class ShopDbContextExtensions
     {

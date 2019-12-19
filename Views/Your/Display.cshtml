@@ -1,10 +1,36 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
+﻿
+@model ChristmasStore.Models.Shop
 
-</body>
-</html>
+@{
+    Layout = "~/Views/Shared/_myLayoutPage.cshtml"; 
+}
+
+ 
+
+    <p> @ViewBag.Title </p>
+
+    @{
+        ViewData["Title"] = "Details";
+
+    }
+<table>
+    <thead>
+        <tr>
+        <th>Item</th>
+        <th>Price</th>
+             </tr>
+    </thead>
+<tbody>
+
+
+@foreach(var s in ViewBag.AllShops)
+{
+    <tr>
+     <td>@s.Item</td>
+    <td>@s.Price</td>
+    </tr>
+    
+}
+</tbody>
+</table>
+

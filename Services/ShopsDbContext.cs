@@ -1,8 +1,8 @@
 ﻿ using System;
 using Microsoft.EntityFrameworkCore;
-using CodingDojo.Models;
+using ChristmasStore.Models;
 
-namespace CodingDojo.Services
+namespace ChristmasStore.Services
 {
     public class ShopsDbContext : DbContext
     {

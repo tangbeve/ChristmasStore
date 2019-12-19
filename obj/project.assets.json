@@ -8790,11 +8790,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/cerser/CodingDojo/CodingDojo.csproj",
-      "projectName": "CodingDojo",
-      "projectPath": "/Users/cerser/CodingDojo/CodingDojo.csproj",
+      "projectUniqueName": "/Users/cerser/ChristmasStore/ChristmasStore.csproj",
+      "projectName": "ChristmasStore",
+      "projectPath": "/Users/cerser/ChristmasStore/ChristmasStore.csproj",
       "packagesPath": "/Users/cerser/.nuget/packages/",
-      "outputPath": "/Users/cerser/CodingDojo/obj/",
+      "outputPath": "/Users/cerser/ChristmasStore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/cerser/.nuget/NuGet/NuGet.Config"

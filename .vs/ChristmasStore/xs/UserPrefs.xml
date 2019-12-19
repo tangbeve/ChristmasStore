@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{3F1D887A-BA97-4F32-8321-49817F089DCA}|CodingDojo">
+  <MonoDevelop.Ide.ItemProperties.ChristmasStore PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/YourController.cs">
+    <Files>
+      <File FileName="Controllers/YourController.cs" Line="79" Column="12" />
+      <File FileName="Views/Shared/_myLayoutPage.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Your/Display.cshtml" />
+      <File FileName="Controllers/ShopsController.cs" Line="16" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ChristmasStore" expanded="True">
+            <Node name="ChristmasStore" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="YourController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True" />
+                <Node name="Your" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using ChristmasStore.Services;
+using Microsoft.EntityFrameworkCore;
+using ChristmasStore.Models;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace CodingDojo.Controllers
+namespace ChristmasStore.Controllers
 {
+    
     public class YourController : Controller 
     {
         //private readonly ShopsDbContext _context;
@@ -30,7 +34,6 @@ namespace CodingDojo.Controllers
         {
             return View();
         }
-
 
         [HttpGet]
         [Route("projects")]
@@ -55,30 +58,29 @@ namespace CodingDojo.Controllers
             ViewBag.Email = "merryChristmas19@gmail.com";
             return View(); 
         }
-        //[HttpGet]
-        //[Route("display")]
-        //public async Task<IActionResult> Display(int? id)
-        //{
-        //    if (id == null)
-        //    {
-        //        return NotFound(); 
-        //    }
 
-        //    var shop = await _context.Shops
-        //        .FirstOrDefaultAsync(s => s.id == id);
-        //    if(shop == null)
-        //    {
-        //        return NotFound(); 
-        //    }
+       
+        private ShopsDbContext _context;
+   
+        public YourController(ShopsDbContext context)
+        {
+            _context = context;
+        }
 
-        //    return View(shop); 
-       // }
+        [HttpGet]
+        [Route("display")]
+        public IActionResult Display()
+        {
+            List<Shop> shop = _context.Shops
+                .OrderBy(s => s.Item)
+                .ToList(); 
 
-        //public ViewResult Contact()
-        //{
+            ViewBag.AllShops = shop;
+            return View();  
+           
+        }
 
-        //    //return View(); 
-        //}
-      
+       
+
     }
 }
