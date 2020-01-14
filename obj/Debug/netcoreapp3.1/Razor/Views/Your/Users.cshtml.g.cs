@@ -20,19 +20,24 @@ namespace AspNetCore
         {
             WriteLiteral("\n");
             WriteLiteral("\n");
+#nullable restore
 #line 4 "/Users/cerser/ChristmasStore/Views/Your/Users.cshtml"
   
     Layout = "~/Views/Shared/_myLayoutPage.cshtml"; 
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\n \n\n    <p> ");
+#nullable restore
 #line 10 "/Users/cerser/ChristmasStore/Views/Your/Users.cshtml"
    Write(ViewBag.Title);
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral(" </p>\n\n");
+#nullable restore
 #line 12 "/Users/cerser/ChristmasStore/Views/Your/Users.cshtml"
       
         ViewData["Title"] = "Details";
@@ -41,56 +46,73 @@ namespace AspNetCore
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("<table>\n    <thead>\n        <tr>\n        <th>FirstName</th>\n        <th>LastName</th>\n        <th>UserName</th>\n        <th>Email</th>\n        <th>Password</th>\n        <th>PhoneNumber</th>\n        </tr>\n    </thead>\n<tbody>\n\n\n");
+#nullable restore
 #line 30 "/Users/cerser/ChristmasStore/Views/Your/Users.cshtml"
  foreach(var u in ViewBag.AllUsers)
 {
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("    <tr>\n    <td>");
+#nullable restore
 #line 33 "/Users/cerser/ChristmasStore/Views/Your/Users.cshtml"
    Write(u.FirstName);
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("</td>\n    <td>");
+#nullable restore
 #line 34 "/Users/cerser/ChristmasStore/Views/Your/Users.cshtml"
    Write(u.LastName);
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("</td>\n    <td>");
+#nullable restore
 #line 35 "/Users/cerser/ChristmasStore/Views/Your/Users.cshtml"
    Write(u.UserName);
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("</td>\n    <td>");
+#nullable restore
 #line 36 "/Users/cerser/ChristmasStore/Views/Your/Users.cshtml"
    Write(u.Email);
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("</td>\n    <td>");
+#nullable restore
 #line 37 "/Users/cerser/ChristmasStore/Views/Your/Users.cshtml"
    Write(u.Password);
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("</td>\n    <td>");
+#nullable restore
 #line 38 "/Users/cerser/ChristmasStore/Views/Your/Users.cshtml"
    Write(u.PhoneNumber);
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("</td>\n    </tr>\n");
+#nullable restore
 #line 40 "/Users/cerser/ChristmasStore/Views/Your/Users.cshtml"
     
 }
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("</tbody>\n</table>\n\n");
         }
         #pragma warning restore 1998

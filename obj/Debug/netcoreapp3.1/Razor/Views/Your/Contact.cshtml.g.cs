@@ -43,12 +43,14 @@ namespace AspNetCore
             WriteLiteral("\n<!DOCTYPE html>\n<html>\n");
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f773f5021891b835b4687971d1929c3fbc31e5ba2645", async() => {
                 WriteLiteral("\n");
+#nullable restore
 #line 5 "/Users/cerser/ChristmasStore/Views/Your/Contact.cshtml"
   
     Layout = "~/Views/Shared/_myLayoutPage.cshtml"; 
 
 #line default
 #line hidden
+#nullable disable
                 WriteLiteral("    <meta charset=\"utf-8\"/>\n    <title>Hello</title>\n");
             }
             );
@@ -62,31 +64,39 @@ namespace AspNetCore
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\n\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f773f5021891b835b4687971d1929c3fbc31e5ba3835", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f773f5021891b835b4687971d1929c3fbc31e5ba3871", async() => {
                 WriteLiteral("\n   <p> ");
+#nullable restore
 #line 13 "/Users/cerser/ChristmasStore/Views/Your/Contact.cshtml"
   Write(ViewBag.Name);
 
 #line default
 #line hidden
+#nullable disable
                 WriteLiteral("<br/>\n       ");
+#nullable restore
 #line 14 "/Users/cerser/ChristmasStore/Views/Your/Contact.cshtml"
   Write(ViewBag.Location);
 
 #line default
 #line hidden
+#nullable disable
                 WriteLiteral("<br/> \n       ");
+#nullable restore
 #line 15 "/Users/cerser/ChristmasStore/Views/Your/Contact.cshtml"
   Write(ViewBag.Number);
 
 #line default
 #line hidden
+#nullable disable
                 WriteLiteral("<br/> \n       ");
+#nullable restore
 #line 16 "/Users/cerser/ChristmasStore/Views/Your/Contact.cshtml"
   Write(ViewBag.Email);
 
 #line default
 #line hidden
+#nullable disable
                 WriteLiteral(" <br/> \n   </p>\n\n");
             }
             );

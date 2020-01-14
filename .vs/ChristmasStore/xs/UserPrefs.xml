@@ -1,25 +1,23 @@
 ﻿<Properties StartupConfiguration="{3F1D887A-BA97-4F32-8321-49817F089DCA}|CodingDojo">
   <MonoDevelop.Ide.ItemProperties.ChristmasStore PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/YourController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/User.cs">
     <Files>
-      <File FileName="Startup.cs" Line="34" Column="1" />
-      <File FileName="Controllers/YourController.cs" Line="63" Column="8" />
-      <File FileName="Views/Your/Display.cshtml" />
-      <File FileName="Views/Your/Users.cshtml" />
-      <File FileName="Views/Shared/_myLayoutPage.cshtml" />
+      <File FileName="Views/Your/Users.cshtml" Line="2" Column="1" IsPinned="True" />
+      <File FileName="Controllers/YourController.cs" Line="100" Column="6" />
+      <File FileName="Models/Login.cs" Line="15" Column="22" />
+      <File FileName="Models/User.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ChristmasStore" expanded="True">
             <Node name="ChristmasStore" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="YourController.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="User.cs" selected="True" />
               </Node>
-              <Node name="Models" expanded="True" />
               <Node name="Services" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Shared" expanded="True" />
                 <Node name="Your" expanded="True" />
               </Node>
             </Node>

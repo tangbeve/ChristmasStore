@@ -8797,7 +8797,7 @@
       "outputPath": "/Users/cerser/ChristmasStore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/cerser/.config/NuGet/NuGet.Config"
+        "/Users/cerser/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

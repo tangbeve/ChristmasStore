@@ -20,19 +20,24 @@ namespace AspNetCore
         {
             WriteLiteral("\n");
             WriteLiteral("\n");
+#nullable restore
 #line 4 "/Users/cerser/ChristmasStore/Views/Your/Display.cshtml"
   
     Layout = "~/Views/Shared/_myLayoutPage.cshtml"; 
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\n \n\n    <p> ");
+#nullable restore
 #line 10 "/Users/cerser/ChristmasStore/Views/Your/Display.cshtml"
    Write(ViewBag.Title);
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral(" </p>\n\n");
+#nullable restore
 #line 12 "/Users/cerser/ChristmasStore/Views/Your/Display.cshtml"
       
         ViewData["Title"] = "Details";
@@ -41,32 +46,41 @@ namespace AspNetCore
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("<table>\n    <thead>\n        <tr>\n        <th>Item</th>\n        <th>Price</th>\n             </tr>\n    </thead>\n<tbody>\n\n\n");
+#nullable restore
 #line 26 "/Users/cerser/ChristmasStore/Views/Your/Display.cshtml"
  foreach(var s in ViewBag.AllShops)
 {
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("    <tr>\n     <td>");
+#nullable restore
 #line 29 "/Users/cerser/ChristmasStore/Views/Your/Display.cshtml"
     Write(s.Item);
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("</td>\n    <td>");
+#nullable restore
 #line 30 "/Users/cerser/ChristmasStore/Views/Your/Display.cshtml"
    Write(s.Price);
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("</td>\n    </tr>\n");
+#nullable restore
 #line 32 "/Users/cerser/ChristmasStore/Views/Your/Display.cshtml"
     
 }
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("</tbody>\n</table>\n\n   \n");
         }
         #pragma warning restore 1998
